@@ -1,0 +1,194 @@
+.div1{
+        background-image: url(/img/Travel-Images-For-Desktop.png.jpg);
+            
+            background-repeat: no-repeat;
+            
+        }
+
+
+h1 {
+    margin: 2px;
+    padding: 20px;
+    color: white;
+}
+/* s */
+
+a{
+    
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none   ;
+    /* background-color: pink; */
+    color: rgb(10, 28, 44);
+}
+
+a:hover{
+
+    color: gray;
+    background-color: black;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.one{
+ 
+    margin-top: 200px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 52px;
+    
+}
+.one:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.two{
+    padding-top: 80px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.three{
+    padding-top:0px ;
+    text-align: center;
+    color: aliceblue;
+}
+.h1{
+    
+    color: black;
+    margin-top: 3em ;
+    padding-bottom: 0px;
+}
+.p{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 9em;
+}
+
+.n_i{ 
+    justify-content: center;
+    text-align: center;
+    font: bold;
+    font-size: 30px;
+    font-family: serif;
+    background-color: lightblue;
+    padding: 5px 5px;
+
+}
+.scroll1{
+    scroll-snap-type: mandatory;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    /* margin-top: 300px; */
+    border: 6px solid lightcoral;
+    background-color: lightskyblue;
+}
+/* .text{
+    background-image: url(/img/kasol.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    
+    font-size: 50px;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.text1 {
+    
+    background-image: url(/img/taj.png);
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    
+    font-size: 50px;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+
+}
+.text2 {
+    background-image: url(/img/north4.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    font-size: 50px;
+    color: darkturquoise;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.text3 {
+    background-image: url(/img/north5.png);
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+
+    font-size: 50px;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+
+ } */
+
+ .cover{
+    position: relative;
+    width: 90%;
+    height: 50%;
+ }
+
+.scroll_image{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child{
+    min-width: 600px;
+    height: 400px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding-right: -50px;
+    overflow: hidden; 
+}
